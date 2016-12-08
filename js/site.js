@@ -15,7 +15,7 @@
             "Content-Type": "application/json",
             "Accept": "application/json"
           },
-          data: '{"weight":{"value":"+weight+","unit":"lb"},"height":{"value":"+height+","unit":"in"},"sex":"m","age":"24","waist":"34.00","hip":"40.00"}'
+          data: '{"weight":{"value":"+weight+","unit":"lb"},"height":{"value":"+height+","unit":"in"}'
         }
       ).done(function(data,json){
     $('#bmi').append('<p>Your BMI is: '+data.bmi.value+'</p>');
